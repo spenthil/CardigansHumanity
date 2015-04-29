@@ -325,7 +325,7 @@ module.exports = function (grunt) {
       dist: [
         'compass:dist',
         'copy:styles',
-        'imagemin',
+        //'imagemin',
         'svgmin',
         'htmlmin'
       ]
@@ -434,7 +434,7 @@ module.exports = function (grunt) {
     'concat',
     'ngmin',
     'copy:dist',
-    'cdnify',
+    //'cdnify',
     'cssmin',
     'uglify',
     'rev',

@@ -5,7 +5,6 @@ angular.module('CardigansHumanityApp', [
 //    'ngResource',
 //    'ngSanitize',
 //    'ngRoute',
-    'config',
     'cardcard'
   ])
   .factory('$exceptionHandler',
@@ -16,7 +15,4 @@ angular.module('CardigansHumanityApp', [
           $log.error.apply($log, arguments);
         };
       }
-    ])
-  .config(['$logProvider', 'DEBUG', function ($logProvider, DEBUG) {
-    $logProvider.debugEnabled(DEBUG);
-  }]);
+    ]);

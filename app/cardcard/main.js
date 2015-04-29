@@ -3,7 +3,7 @@ angular.module("cardcard", []);
 angular.module("cardcard").service("cardcard", ["$log", "$q", "$sce", function ($log, $q, $sce) {
   this.options = {
     cards: [
-      "Cardigans ahsijdoahdioa are the _____.",
+      "Cardigans are the _____.",
       "worst creation imagined",
       "most horrible thing"
     ].join('\n'),
