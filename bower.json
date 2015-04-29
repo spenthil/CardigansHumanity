@@ -6,9 +6,7 @@
     "jquery": "~1.10.2",
     "sass-bootstrap": "~3.0.0",
     "angular-route": "~1.2.0",
-    "d3": "~3.3.0",
-    "jspdf": "*",
-    "Blob": "git://github.com/eligrey/Blob.js.git"
+    "jspdf": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.0",
